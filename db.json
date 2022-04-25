@@ -1,0 +1,44 @@
+{
+  "clientes": [
+    {
+      "nombre": "Evelin",
+      "empresa": "Clinica Macsalud",
+      "email": "russbellc@gmail.com",
+      "telefono": "084582060",
+      "notas": "muchos",
+      "id": 2
+    },
+    {
+      "nombre": "karen ",
+      "empresa": "Minamanta",
+      "email": "russbellc@gmail.com",
+      "telefono": "965041491",
+      "notas": "nada",
+      "id": 4
+    },
+    {
+      "nombre": "Netflix Actualizado",
+      "empresa": "Minamanta",
+      "email": "russbellc@gmail.com",
+      "telefono": "965041491",
+      "notas": "asdasdasd",
+      "id": 5
+    },
+    {
+      "nombre": "Netflix",
+      "empresa": "Minamanta",
+      "email": "russbellc@gmail.com",
+      "telefono": "965041491",
+      "notas": "adasdasd",
+      "id": 6
+    },
+    {
+      "nombre": "churrumino",
+      "empresa": "Churrita",
+      "email": "minamanta@gmail.com",
+      "telefono": "777777777",
+      "notas": "gatomanta",
+      "id": 7
+    }
+  ]
+}
