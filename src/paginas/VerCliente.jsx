@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Spinner from '../components/Spinner'
+import Spinner from "../components/Spinner";
 import "../styles/Spinner.css";
 
 const VerCliente = () => {
@@ -11,7 +11,7 @@ const VerCliente = () => {
 		setCargando(!cargando);
 		const obtenerCliAPI = async () => {
 			try {
-				const url = `http://localhost:4000/clientes/${id}`;
+				const url = `${import.meta.env.VITE_API_URL}/${id}`;
 				const respuesta = await fetch(url);
 				const resultado = await respuesta.json();
 				setCliente(resultado);
